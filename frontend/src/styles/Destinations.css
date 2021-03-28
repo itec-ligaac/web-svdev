@@ -1,0 +1,154 @@
+.input form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.input-wrapper {
+    position: relative;
+}
+
+.input form input {
+    padding: 16px 50px;
+    width: 60%;
+    font-size: 20px;
+}
+
+.input form button {
+    padding: 20px 50px;
+    background: none;
+    border: 1px solid #000;
+    border-left: none;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-size: 15px;
+}
+
+.results {
+    width: 75%;
+    margin: auto;
+    position: absolute;
+    z-index: 100;
+    background: #fff;
+    left: 12%;
+}
+
+.results div {
+    padding: 10px 0;
+    border-bottom: 1px solid #000;
+    cursor: pointer;
+}
+
+h1, h2 {
+    margin: 0;
+    text-align: center;
+}
+
+.flag-select {
+    width: 60%;
+    margin: auto;
+    margin: 20px auto;
+}
+
+.country-coivd-info {
+    margin: auto;
+    background: #6d534a;
+    padding: 30px;
+    border-radius: 20px;
+    color: #fff;
+    flex: 3;
+    margin-right: 20px;
+}
+
+
+.slick-slide img {
+    display: block;
+    max-width: 100%;
+}
+
+.weather-info {
+    margin: auto;
+    background: #cccccc;
+    padding: 30px;
+    border-radius: 20px;
+    color: #000;
+    flex: 1;
+    margin: 0;
+}
+
+.booking-form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #6d534a;
+    padding: 30px;
+    border-radius: 20px;
+    color: #fff;
+}
+
+
+.inner-wrapper {
+    width: calc(100% - 60px);
+    margin: auto;
+}
+
+.info-wrapper {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 10px;
+}
+
+.react-datepicker-wrapper input {
+    width: calc(100% - 10px);
+}
+
+.inner-form-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.booking-form form button {
+    margin: auto;
+    display: flex;
+    margin-top: 30px;
+    padding: 10px 20px;
+}
+
+.flight {
+    width: calc(100% - 100px);
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #6d534a;
+    padding: 30px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.flight span {
+    display: block;
+}
+
+.fligth-dest {
+    display: flex;
+}
+
+.slick-slider {
+    margin-bottom: 50px;
+}
