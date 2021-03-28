@@ -1,0 +1,23 @@
+nav {
+    background: #6d534a;
+    height: 70px;
+}
+
+nav ul {
+    margin-top: 0;
+    padding: 0;
+    width: 90%;
+    max-width: 1500px;
+    margin: auto;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+nav ul li a{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
